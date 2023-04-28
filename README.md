@@ -125,3 +125,12 @@ cargo run
 cargo check
 
 - cargo check 要比cargo build快得多
+
+cargo build --release
+
+为发布构建
+
+- 编译时会进行优化
+  - 代码会运行的更快，但是编译时间更长
+  - 会在target/release而不是target/debug生成可执行文件
+
