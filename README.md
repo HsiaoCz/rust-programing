@@ -134,3 +134,7 @@ cargo build --release
   - 代码会运行的更快，但是编译时间更长
   - 会在target/release而不是target/debug生成可执行文件
 
+cargo update
+
+可以升级依赖
+在cargo.toml里修改依赖

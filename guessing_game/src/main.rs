@@ -1,14 +1,20 @@
 // io在标准库里面 std表示标准库
 // rust会默认导入prelude这个模块，如果需要使用得模块不在这个模块里，需要显式地导入
 // use ::表示导入
-use std::io;
+use rand::Rng;
+use std::cmp::Ordering;
+use std::io; // trait
 
 fn main() {
-    println!("Hello, world!");
+    // println!("Hello, world!");
 
-    println!("猜测一个数");
+    println!("猜数游戏开始..");
 
+    let secret_number = rand::thread_rng().gen_range(1..101);
     // let 声明变量
+    println!("生成的神秘数字:{}", secret_number);
+
+    println!("猜测一个数...");
 
     // let foo = 1;
     // let bar = foo; // 所有的变量都是不可变的
@@ -37,5 +43,15 @@ fn main() {
     // 并将传入的字符串信息显示出来，但是如果这个io.Result返回的是OK,expect这个方法会将ok中返回的内容作为结果返回给用户
     io::stdin().read_line(&mut guess).expect("无法读取");
     // {}是一个占位符，多个占位符会按顺序展开
-    println!("你猜测得数是: {}", guess)
+
+    // shadow
+    // guess.trim()去掉空白 parse()将字符解析成某种数字
+    let guess: u32 = guess.trim().parse().expect("Please type a number");
+    println!("你猜测得数是: {}", guess);
+
+    match guess.cmp(&secret_number) {
+        Ordering::Equal => println!("You win"),
+        Ordering::Less => println!("Too less"),
+        Ordering::Greater => println!("Too big"),
+    }
 }
