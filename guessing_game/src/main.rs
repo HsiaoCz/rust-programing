@@ -10,12 +10,12 @@ fn main() {
 
     // let 声明变量
 
-    let foo = 1;
-    let bar = foo; // 所有的变量都是不可变的
+    // let foo = 1;
+    // let bar = foo; // 所有的变量都是不可变的
 
     // 想要使变量可以改变需要在声明的时候加上mut
-    let mut hello = 1;
-    hello = 2;
+    // let mut hello = 1;
+    // hello = 2;
 
     // 声明一个可变的变量
     // String::new()会返回字符串的一个新的实例
