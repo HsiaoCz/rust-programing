@@ -8,5 +8,10 @@ fn main() {
     // 声明变量的时候直接声明的是不可变的类型
     x = 6;
     println!("{}", x);
-    println!("{}", MAX_POINTS)
+    println!("{}", MAX_POINTS);
+
+    let _m = 13;
+    let _m = 14;
+    let m = 18;
+    println!("{}", m)
 }
