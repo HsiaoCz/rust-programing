@@ -13,5 +13,9 @@ fn main() {
     let _m = 13;
     let _m = 14;
     let m = 18;
-    println!("{}", m)
+    println!("{}", m);
+
+    let spaces = "  ";
+    let spaces = spaces.len();
+    println!("{}", spaces)
 }
