@@ -138,3 +138,9 @@ cargo update
 
 可以升级依赖
 在cargo.toml里修改依赖
+
+## 3、变量与可变性
+
+声明变量使用let关键字
+默认情况下，变量是不可变的(lmmutable)
+
