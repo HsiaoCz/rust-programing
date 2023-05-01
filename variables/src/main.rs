@@ -17,5 +17,18 @@ fn main() {
 
     let spaces = "  ";
     let spaces = spaces.len();
-    println!("{}", spaces)
+    println!("{}", spaces);
+
+    // 将"42"解析成某个数字类型，这里需要指明
+    let aa: u32 = "42".parse().expect("Not a number");
+    println!("{}", aa);
+
+    let mm = 2.0;
+    println!("{}", mm);
+
+    let t = true;
+    println!("{}", t);
+
+    let emo = '🙁';
+    println!("{}", emo)
 }
