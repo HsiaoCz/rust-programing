@@ -1,3 +1,5 @@
+use core::num;
+
 const MAX_POINTS: u32 = 10;
 
 fn main() {
@@ -48,4 +50,45 @@ fn main() {
     // 数组的访问
     // 通过索引来访问
     println!("{}", aaa[1]);
+    another_function();
+
+    add(12, 21);
+    five();
+
+    hello();
+    hi();
+}
+
+// rust函数
+
+fn another_function() {
+    println!("another function");
+}
+
+// 函数的签名里，函数参数的类型必须指明
+fn add(a: i32, b: i32) {
+    println!("the value is {}", a + b);
+}
+
+// 函数的返回值
+
+fn five() -> i32 {
+    5
+}
+
+// 条件表达式
+
+fn hello() {
+    let number = 3;
+    if number < 5 {
+        println!("condition was true");
+    } else {
+        println!("condition was false");
+    }
+}
+
+fn hi() {
+    let condition = true;
+    let number = if condition { 5 } else { 6 };
+    println!("the value of number is:{}", number);
 }
