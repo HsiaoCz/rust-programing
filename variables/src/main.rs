@@ -1,5 +1,3 @@
-use core::num;
-
 const MAX_POINTS: u32 = 10;
 
 fn main() {
