@@ -55,6 +55,8 @@ fn main() {
 
     hello();
     hi();
+
+    wuhan();
 }
 
 // rust函数
@@ -90,3 +92,9 @@ fn hi() {
     let number = if condition { 5 } else { 6 };
     println!("the value of number is:{}", number);
 }
+
+fn wuhan() {
+    // 在这一行，s还没有声明，是不可用的
+    let s = "hello"; //对s进行声明
+    println!("{}", s) //对s进行操作
+} //s的作用域到此为止，s将不再可用
