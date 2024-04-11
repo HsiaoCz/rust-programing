@@ -1,0 +1,11 @@
+/home/hsiaocz/rust/rust-programing/guessing_game/target/debug/deps/libgetrandom-1b6e4042265bb45f.rmeta: /home/hsiaocz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.9/src/lib.rs /home/hsiaocz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.9/src/error.rs /home/hsiaocz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.9/src/util.rs /home/hsiaocz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.9/src/error_impls.rs /home/hsiaocz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.9/src/util_libc.rs /home/hsiaocz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.9/src/use_file.rs /home/hsiaocz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.9/src/linux_android.rs
+
+/home/hsiaocz/rust/rust-programing/guessing_game/target/debug/deps/getrandom-1b6e4042265bb45f.d: /home/hsiaocz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.9/src/lib.rs /home/hsiaocz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.9/src/error.rs /home/hsiaocz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.9/src/util.rs /home/hsiaocz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.9/src/error_impls.rs /home/hsiaocz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.9/src/util_libc.rs /home/hsiaocz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.9/src/use_file.rs /home/hsiaocz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.9/src/linux_android.rs
+
+/home/hsiaocz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.9/src/lib.rs:
+/home/hsiaocz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.9/src/error.rs:
+/home/hsiaocz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.9/src/util.rs:
+/home/hsiaocz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.9/src/error_impls.rs:
+/home/hsiaocz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.9/src/util_libc.rs:
+/home/hsiaocz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.9/src/use_file.rs:
+/home/hsiaocz/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.9/src/linux_android.rs:
